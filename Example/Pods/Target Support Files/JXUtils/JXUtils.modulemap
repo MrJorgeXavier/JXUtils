@@ -1,0 +1,6 @@
+framework module JXUtils {
+  umbrella header "JXUtils-umbrella.h"
+
+  export *
+  module * { export * }
+}

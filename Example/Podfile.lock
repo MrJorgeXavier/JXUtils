@@ -1,0 +1,16 @@
+PODS:
+  - JXUtils (0.1.0)
+
+DEPENDENCIES:
+  - JXUtils (from `../`)
+
+EXTERNAL SOURCES:
+  JXUtils:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  JXUtils: c9956b75e21914821248ab9cd8a2b661a4cb95ea
+
+PODFILE CHECKSUM: 7f881833366147ea972c943da78fc4ead40f7ddc
+
+COCOAPODS: 1.5.3
