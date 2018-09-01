@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'JXUtils_Example' do
+  pod 'JXUtils', :path => '../'
+
+  target 'JXUtils_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
