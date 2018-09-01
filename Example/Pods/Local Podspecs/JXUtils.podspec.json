@@ -1,0 +1,22 @@
+{
+  "name": "JXUtils",
+  "version": "0.1.0",
+  "summary": "A short description of JXUtils.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/oojlxavier@gmail.com/JXUtils",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "oojlxavier@gmail.com": "mr.jorge.xavier@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/oojlxavier@gmail.com/JXUtils.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "JXUtils/Classes/**/*"
+}
