@@ -24,13 +24,19 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         .alert, .gradient, .fromNib, .fromStoryboard, .className
     ]
     
+    override func viewDidLoad() {
+        super.viewDidLoad()        
+        self.tableView.registerCell(CustomTableViewCell.self)
+    }
+    
+    
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return self.options.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: UITableViewCell.className, for: indexPath)
-        cell.textLabel?.text = self.options[indexPath.row].rawValue
+        let cell: CustomTableViewCell = tableView.dequeueCell(for: indexPath)
+        cell.titleLabel.text = self.options[indexPath.row].rawValue
         return cell
     }
     

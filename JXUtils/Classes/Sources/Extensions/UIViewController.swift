@@ -12,8 +12,8 @@ import UIKit
 public struct CSUIViewControllerSettings {
     //MARK: Default defined values:
     
-    public static var closeButtonTitle: String = "Close"
-    public static var cancelButtonTitle: String = "Cancel"
+    public static var closeButtonTitle: String = "Fechar"
+    public static var cancelButtonTitle: String = "Cancelar"
     
     //MARK: Default defined factories:
     

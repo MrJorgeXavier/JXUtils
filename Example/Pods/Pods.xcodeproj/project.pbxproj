@@ -26,6 +26,7 @@
 		8E3BAED0213AF0890071DC0F /* CSVectorUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E3BAEC3213AF0890071DC0F /* CSVectorUtils.swift */; };
 		8E3BAED1213AF0890071DC0F /* Objc.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E3BAEC5213AF0890071DC0F /* Objc.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8E3BAED2213AF0890071DC0F /* Objc.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E3BAEC6213AF0890071DC0F /* Objc.m */; };
+		8E6991892157266C00C7531B /* UITableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E6991882157266C00C7531B /* UITableView.swift */; };
 		B02117F7B2EE0E0B2EC064BFB789F8FD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		D8B3F95BB9FA00861C496BA2529DC561 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 /* End PBXBuildFile section */
@@ -80,6 +81,7 @@
 		8E3BAEC3213AF0890071DC0F /* CSVectorUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CSVectorUtils.swift; sourceTree = "<group>"; };
 		8E3BAEC5213AF0890071DC0F /* Objc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Objc.h; sourceTree = "<group>"; };
 		8E3BAEC6213AF0890071DC0F /* Objc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Objc.m; sourceTree = "<group>"; };
+		8E6991882157266C00C7531B /* UITableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITableView.swift; sourceTree = "<group>"; };
 		8F68250AA341CF4E8EDFF6E4AA8CD84D /* JXUtils-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JXUtils-umbrella.h"; sourceTree = "<group>"; };
 		93333768357A26E747EB39F2DF3E6C4C /* Pods-JXUtils_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JXUtils_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
@@ -254,6 +256,7 @@
 				8E3BAEBC213AF0890071DC0F /* UIDevice.swift */,
 				8E3BAEBD213AF0890071DC0F /* UIStoryboard.swift */,
 				8E3BAEBE213AF0890071DC0F /* UIView.swift */,
+				8E6991882157266C00C7531B /* UITableView.swift */,
 				8E3BAEBF213AF0890071DC0F /* UIViewController.swift */,
 			);
 			path = Extensions;
@@ -444,6 +447,7 @@
 				8E3BAECA213AF0890071DC0F /* Sequence.swift in Sources */,
 				8E3BAED0213AF0890071DC0F /* CSVectorUtils.swift in Sources */,
 				8E3BAEC7213AF0890071DC0F /* CALayer.swift in Sources */,
+				8E6991892157266C00C7531B /* UITableView.swift in Sources */,
 				8E3BAECC213AF0890071DC0F /* UIStoryboard.swift in Sources */,
 				8E3BAECF213AF0890071DC0F /* CSMathUtils.swift in Sources */,
 			);

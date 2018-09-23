@@ -21,9 +21,11 @@ public extension UIView {
     
     /// Sets itself as subview of the argument passed in the parameter, and then sets its contraints to match top, bottom, right and left of the superview.
     ///
-    /// - Parameter view: The new superview of this view.
+    /// - Parameter view: The view which this view will be constrained. If this view's superview is nil, this parameter will become this view's superview
     public func embed(in view:UIView) {
-        view.addSubview(self)
+        if self.superview == nil {
+            view.addSubview(self)
+        }
         self.constrain(to: view)
     }
     
@@ -52,7 +54,8 @@ extension UIView {
     class func fromNibFile<T:UIView>(nibName: String, owner: Any?, options: [AnyHashable: Any]?) -> T {
         let bundle = Bundle.init(for: T.classForCoder())
         let nib = UINib.init(nibName: nibName, bundle: bundle)
-        let view = nib.instantiate(withOwner: owner, options: options).first(where: {$0 is T})
+        let view = nib.instantiate(withOwner: owner, options: options).first(where: {$0 is T}) as! UIView
+        view.translatesAutoresizingMaskIntoConstraints = false
         return view as! T
     }
 }

@@ -18,6 +18,8 @@
 		8E3BAEDA213AF2360071DC0F /* CustomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E3BAED5213AF2360071DC0F /* CustomViewController.swift */; };
 		8E3BAEDB213AF2360071DC0F /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E3BAED7213AF2360071DC0F /* CustomView.swift */; };
 		8E3BAEDC213AF2360071DC0F /* CustomView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E3BAED8213AF2360071DC0F /* CustomView.xib */; };
+		8E69918C21572F1100C7531B /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E69918B21572F1100C7531B /* CustomTableViewCell.swift */; };
+		8E69918E21572F1C00C7531B /* CustomTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E69918D21572F1C00C7531B /* CustomTableViewCell.xib */; };
 		9F76596DF6C076366B637F36 /* Pods_JXUtils_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 797B22B0F78A688825B84D51 /* Pods_JXUtils_Tests.framework */; };
 /* End PBXBuildFile section */
 
@@ -53,6 +55,8 @@
 		8E3BAED5213AF2360071DC0F /* CustomViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomViewController.swift; sourceTree = "<group>"; };
 		8E3BAED7213AF2360071DC0F /* CustomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
 		8E3BAED8213AF2360071DC0F /* CustomView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomView.xib; sourceTree = "<group>"; };
+		8E69918B21572F1100C7531B /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		8E69918D21572F1C00C7531B /* CustomTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomTableViewCell.xib; sourceTree = "<group>"; };
 		E77406475267DBA790BBAF1F /* Pods-JXUtils_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JXUtils_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JXUtils_Tests/Pods-JXUtils_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		FFC680EF59B458B6BD385B0E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -101,6 +105,7 @@
 		607FACD21AFB9204008FA782 /* Example for JXUtils */ = {
 			isa = PBXGroup;
 			children = (
+				8E69918A21572F0100C7531B /* CustomCell */,
 				8E3BAED6213AF2360071DC0F /* CustomView */,
 				8E3BAED3213AF2360071DC0F /* CustomViewContorller */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
@@ -165,6 +170,15 @@
 				8E3BAED8213AF2360071DC0F /* CustomView.xib */,
 			);
 			path = CustomView;
+			sourceTree = "<group>";
+		};
+		8E69918A21572F0100C7531B /* CustomCell */ = {
+			isa = PBXGroup;
+			children = (
+				8E69918B21572F1100C7531B /* CustomTableViewCell.swift */,
+				8E69918D21572F1C00C7531B /* CustomTableViewCell.xib */,
+			);
+			path = CustomCell;
 			sourceTree = "<group>";
 		};
 		CE7AD3158FE369FCE4D2AC1A /* Frameworks */ = {
@@ -275,6 +289,7 @@
 			files = (
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
 				8E3BAEDC213AF2360071DC0F /* CustomView.xib in Resources */,
+				8E69918E21572F1C00C7531B /* CustomTableViewCell.xib in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
 				8E3BAED9213AF2360071DC0F /* Custom.storyboard in Resources */,
@@ -353,6 +368,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8E3BAEDA213AF2360071DC0F /* CustomViewController.swift in Sources */,
+				8E69918C21572F1100C7531B /* CustomTableViewCell.swift in Sources */,
 				8E3BAEDB213AF2360071DC0F /* CustomView.swift in Sources */,
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
